@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 .App {
   text-align: center;
 }
@@ -150,17 +153,18 @@ img > .mannaggdio{
 }
 
 .img-container > img{
-  max-width: 100%;
   border-radius: 1rem;
-  width: 80vw;
+  width: auto;
+  height: 50vh;
 }
 
 .img-container {
 }
 
 .auguri-ciro {
+  font-family: 'Silkscreen';
   color: white;
-  font-size: xx-large;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -196,4 +200,85 @@ body{
   height: 100vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+.orizzontale > img {
+  height: 25vh;
+}
+
+.codice-div{
+  justify-content: flex-start;
+}
+
+.codice-text {
+  padding-top: 25%;
+  padding-bottom: 1rem;
+  font-family: 'Silkscreen';
+  color: white;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  text-shadow: 3px 3px #f0f8ff4d;
+}
+
+input {
+  border-radius: 8px;
+  width: 80%;
+  height: 1.5rem;
+  border-color: transparent;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 1px 1px grey;
+}
+
+button {
+  border-radius: 16px;
+  height: 4.5rem;
+  width: 9rem;
+  margin-top: 32px;
+  background-color: rgb(61, 207, 61);
+  border-color: transparent;
+  font-family: "Silkscreen";
+  color: white;
+  font-size: 1rem;
+  box-shadow: 10px 10px green;
+}
+
+button:active {
+  box-shadow: 1px 1px green;
+  margin-top: 41px;
+  margin-left: 9px;
+}
+
+.coglione-text {
+  font-family: 'Rubik Doodle Shadow';
+  color: white;
+  font-size: 1.5rem;  
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 16px;
+  background-color: #00008b38;
+  margin-top: 2rem;
+  padding: 1rem;
+  box-shadow: 3px 3px #00008b1c;
+}
+
+.coglione-author {
+  padding-top: 1rem;
+  margin-right: 1rem;
+  width: 100%;
+  font-family: 'Rubik Doodle Shadow';
+  color: white;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.button-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 100px;
 }

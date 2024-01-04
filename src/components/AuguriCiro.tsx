@@ -18,8 +18,10 @@ return (
             <div className="explosion-container">
                 <img style={{maxWidth: "100vw"}} src={process.env.PUBLIC_URL + '/img/explosion.gif'}/>
             </div>
-            <div className="img-container auguri-ciro">
+            <div className="auguri-ciro">
                 Auguri Ciro!
+            </div>
+            <div className="img-container" style={{display: "flex", justifyContent:"center"}}>
                 <img src={process.env.PUBLIC_URL + '/img/17.JPG'}/>
             </div>
         </div>

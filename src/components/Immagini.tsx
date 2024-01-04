@@ -1,5 +1,5 @@
 import { MotionValue, Variants, motion, useScroll, useTransform } from "framer-motion";
-import React, { ReactNode, useRef } from "react";
+import React, { ReactNode, useEffect, useRef } from "react";
 import Header from "./header.tsx";
 import { DraggableImage } from "./draggableComp.tsx";
 
@@ -46,19 +46,24 @@ const cardVariantsLeft: Variants = {
     }
   };
 
+  useEffect(()=> {
+    console.log(props.src1Orizzontale);
+    
+  }, [])
+
 return (
     <section>
         <motion.div className="section-div" 
                     initial="offscreen"
                     whileInView="onscreen">
-            <motion.div className="img-container">
+            <motion.div className={props.src1Orizzontale ? "img-container orizzontale" : "img-container"}>
                 <motion.img
                   src={props.src}
                   variants={cardVariants}
                   drag
                   />
             </motion.div>
-            <motion.div className="img-container">
+            <motion.div className={props.src2Orizzontale ? "img-container orizzontale" : "img-container"}>
                 <motion.img
                   style={{zIndex:10}}
                   src={props.src2}
