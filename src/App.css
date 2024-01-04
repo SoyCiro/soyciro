@@ -266,9 +266,19 @@ button:active {
   box-shadow: 3px 3px #00008b1c;
 }
 
+@media only screen and (min-width: 673px) {
+  .coglione-text{
+    max-width: 630px;
+    min-width: 630px;
+  }
+  .coglione-author{
+    max-width: 630px;
+  }
+}
+
 .coglione-author {
-  padding-top: 1rem;
   margin-right: 1rem;
+  padding: 1rem;
   width: 100%;
   font-family: 'Rubik Doodle Shadow';
   color: white;
