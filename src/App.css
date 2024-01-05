@@ -56,6 +56,10 @@
   font-size: xx-large;
 }
 
+.head {
+  background-color: rgb(208, 31, 243);
+}
+
 html{
   background-color: #cf57ff;
   overflow-x: hidden;

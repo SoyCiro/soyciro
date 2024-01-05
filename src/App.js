@@ -58,7 +58,6 @@ function App() {
         <Immagini src={process.env.PUBLIC_URL + '/img/5.JPG'} src2={process.env.PUBLIC_URL + '/img/6.JPG'} src2Orizzontale={true}/>
         <Immagini src={process.env.PUBLIC_URL + '/img/7.JPG'} src2={process.env.PUBLIC_URL + '/img/8.JPG'} src2Orizzontale={true}/>
         <Immagini src={process.env.PUBLIC_URL + '/img/9.JPG'} src2={process.env.PUBLIC_URL + '/img/10.JPG'} />
-        <Immagini src={process.env.PUBLIC_URL + '/img/11.JPG'} src2={process.env.PUBLIC_URL + '/img/12.JPG'} />
         <Immagini src={process.env.PUBLIC_URL + '/img/13.JPG'} src2={process.env.PUBLIC_URL + '/img/14.JPG'} />
         <Immagini src={process.env.PUBLIC_URL + '/img/15.JPG'} src2={process.env.PUBLIC_URL + '/img/16.JPG'} />
         <motion.div className="progress" style={{ scaleX }} />

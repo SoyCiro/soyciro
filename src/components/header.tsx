@@ -9,10 +9,8 @@ const Header = () => {
 
     return(
         <section>
-            <div>
-                <motion.div layout className='header-container'>
-                    <Title />
-                </motion.div>
+            <div className="section-div head">
+                <Title />
             </div>
         </section>
     )

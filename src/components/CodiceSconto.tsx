@@ -8,7 +8,7 @@ const CodiceSconto = () => {
 const coglione = async () => {
     //visible === 0 ? setVisible(1) : visible === 1 ? setVisible(2) : setVisible(0);
     try{
-        let res = await fetch("https://api.quotable.io/quotes/random?maxLength=100&tags=Business|Famous-Quotes");
+        let res = await fetch("https://api.quotable.io/quotes/random?maxLength=100&tags=Business|Famous-Quotes|Inspirational|Wisdom|Life");
         let json = await res.json();
         console.log(json);
         
